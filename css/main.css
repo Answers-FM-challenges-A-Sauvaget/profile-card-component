@@ -24,6 +24,12 @@ body {
   background-position: -30% 60%, 120% -60%;
 }
 
+@media screen and (max-width: 375px) {
+  body {
+    background-position: 135% 60%, -20% -95%;
+  }
+}
+
 ul {
   list-style-type: none;
   padding: 0;
